@@ -1,0 +1,11 @@
+<h1>Upcoming Bills</h1>
+
+<ul>
+  {{#each model as |bill|}}
+  <h3>Bill</h3>
+    <li>
+      {{bill.bill_id}} in {{bill.chamber}}
+      {{bill.context}}
+    </li>
+  {{/each}}
+</ul>
