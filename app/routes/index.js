@@ -5,9 +5,9 @@ export default Ember.Route.extend({
     zipLookup(params) {
       this.transitionTo('results', params.zip);
     },
-    billsLookup() {
-      console.log('Hi from Index');
-      this.transitionTo('bills-results');
+    foodLookup(params) {
+      console.log(params);
+      this.transitionTo('nutrition', params);
     }
   }
 });

@@ -1,9 +1,17 @@
-<nav>
-  {{#link-to 'index'}}Home{{/link-to}}
-</nav>
 
-{{#link-to 'house'}}
-  {{link-to 'house committee' 'house'}}
-{{/link-to}}
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Enlightened Citizenry</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+
 
 {{outlet}}
+
+{{!-- ember-cli-materialize modal container --}}
+<!-- {{md-modal-container}} -->

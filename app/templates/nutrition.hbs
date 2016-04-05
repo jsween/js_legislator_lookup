@@ -1,0 +1,14 @@
+<h1>{{model.fields.item_name}}</h1>
+<h2>{{model.max_score}}</h2>
+
+<ul>
+  {{#each model as |food|}}
+  <li>
+    {{food.fields.brand_name}}<br>
+    &nbsp;&nbsp;{{food.fields.item_name}}<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;{{food._score}}/10
+
+
+  </li>
+  {{/each}}
+</ul>

@@ -1,5 +1,10 @@
-{{lookup-form zipLookup="zipLookup"}}
+<div class="lookup">
 
-{{bills-lookup billsLookup="billsLookup"}}
+  {{lookup-form zipLookup="zipLookup"}}
+  {{lookup-food foodLookup="foodLookup"}}
+</div>
 
+{{#link-to 'nutrition'}}Nutrition{{/link-to}}
 {{#link-to 'bills-results'}}Upcoming Bills{{/link-to}}
+
+<!-- {{#link-to 'phrase'}}Click to see how many times the phrase "United States" appears in the Congressional records{{/link-to}} -->

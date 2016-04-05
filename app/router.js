@@ -9,6 +9,8 @@ Router.map(function() {
   this.route('results', {path: '/results/:zip'});
   this.route('bills-results');
   this.route('house');
+  this.route('phrase');
+  this.route('nutrition', {path: '/nutrition/:food'});
 });
 
 export default Router;
