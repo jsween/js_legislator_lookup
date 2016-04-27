@@ -1,7 +1,8 @@
 # Legislator-lookup
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is an sandbox exercise to start practice with incorporating APIs into an Ember web app.
+
+### By Jon Sweeney
 
 ## Prerequisites
 
